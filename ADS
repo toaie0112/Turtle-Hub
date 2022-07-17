@@ -1,3 +1,34 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local TurtleHub = Instance.new("ScreenGui")
+local TurtleHub_2 = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+
+--Properties:
+
+TurtleHub.Name = "TurtleHub"
+TurtleHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+TurtleHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+TurtleHub_2.Name = "Turtle Hub"
+TurtleHub_2.Parent = TurtleHub
+TurtleHub_2.BackgroundColor3 = Color3.fromRGB(7, 255, 235)
+TurtleHub_2.Position = UDim2.new(0.0860979483, 0, 0.17304492, 0)
+TurtleHub_2.Size = UDim2.new(0, 905, 0, 417)
+
+ImageLabel.Parent = TurtleHub_2
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Position = UDim2.new(-0.000571787357, 0, -0.00774729252, 0)
+ImageLabel.Size = UDim2.new(0, 908, 0, 423)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=10254370990"
+
+wait(10)
+
+game:GetService("Players").LocalPlayer.PlayerGui.TurtleHub:Destroy()
+
 
 _, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 
