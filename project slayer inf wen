@@ -22,7 +22,7 @@ ImageLabel.Parent = TurtleHub_2
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.Position = UDim2.new(0.357819915, 0, 0.156405985, 0)
 ImageLabel.Size = UDim2.new(0, 557, 0, 389)
-ImageLabel.Image = "http://www.roblox.com/asset/?id=10276174053"
+ImageLabel.Image = "http://www.roblox.com/asset/?id=10328316941"
 
 wait(10)
 
