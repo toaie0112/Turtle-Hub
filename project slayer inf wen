@@ -24,7 +24,7 @@ ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.Size = UDim2.new(0, 782, 0, 411)
 ImageLabel.Image = "http://www.roblox.com/asset/?id=10328316929"
 
-wait(10)
+wait(5)
 
 game:GetService("Players").LocalPlayer.PlayerGui.MangoHub:Destroy()
 
