@@ -3,30 +3,30 @@
 
 -- Instances:
 
-local TurtleHub = Instance.new("Frame")
-local TurtleHub_2 = Instance.new("ScreenGui")
+local MangoHub = Instance.new("ScreenGui")
+local MangoHub_2 = Instance.new("Frame")
 local ImageLabel = Instance.new("ImageLabel")
 
 --Properties:
 
-TurtleHub.Name = "TurtleHub"
-TurtleHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-TurtleHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TurtleHub.Size = UDim2.new(0, 100, 0, 100)
+MangoHub.Name = "MangoHub"
+MangoHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+MangoHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-TurtleHub_2.Name = "TurtleHub"
-TurtleHub_2.Parent = TurtleHub
-TurtleHub_2.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+MangoHub_2.Name = "MangoHub"
+MangoHub_2.Parent = MangoHub
+MangoHub_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MangoHub_2.Position = UDim2.new(0.185624018, 0, 0.118136436, 0)
+MangoHub_2.Size = UDim2.new(0, 782, 0, 411)
 
-ImageLabel.Parent = TurtleHub_2
+ImageLabel.Parent = MangoHub_2
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel.Position = UDim2.new(0.357819915, 0, 0.156405985, 0)
-ImageLabel.Size = UDim2.new(0, 557, 0, 389)
-ImageLabel.Image = "http://www.roblox.com/asset/?id=10276174053"
+ImageLabel.Size = UDim2.new(0, 782, 0, 411)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=10328316929"
 
 wait(10)
 
-game:GetService("Players").LocalPlayer.PlayerGui.TurtleHub:Destroy()
+game:GetService("Players").LocalPlayer.PlayerGui.MangoHub:Destroy()
 
 _, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 
